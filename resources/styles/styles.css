@@ -1,0 +1,120 @@
+body {
+    font-size: 22px;
+    margin: 0;
+    color: black;
+    font-family: 'Lexend Mega', sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+h2, h3, h4, p  {
+    margin: 0;
+    padding: 10px;
+}
+
+a {
+    color: black;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.main{
+    padding-top: 35px;
+    opacity: 0.9;
+}
+
+.intro {
+    display:flex;
+    height: 300px;
+    background-image: url('/resources/images/skyscrapers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.intro .content {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+}
+
+.portfolio {
+    margin: auto;
+    min-height: 500px;
+    padding-top: 70px;   
+}
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company img  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
+
+.company span {
+    min-width: 240px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.our-team {
+    margin: auto;
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/resources/images/blurred-road.jpg);
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    
+}
+
+.teammate {
+    color: white;
+    flex-basis: 280px;
+    padding: 10px;
+}
+
+.teammate img {
+    height: auto;
+    width: 200px;
+    margin: auto;
+}
+
+.contact, .footer {
+    padding-top: 20px;
+}
+
